@@ -1,11 +1,16 @@
 """
+================================================================================
 Credit Scoring Module
+================================================================================
 
 This module contains the business rules used to calculate the
 educational credit score throughout the project.
 
 Author:
-José Reyes
+    José Reyes
+
+Project:
+    Credit Risk Fundamentals with Python
 """
 
 import pandas as pd
