@@ -54,10 +54,10 @@ class Decision(Enum):
 # Business Rules (public vars)
 # ==========================================================
 
-MIN_APPROVAL_SCORE = 550
-MAX_APPROVAL_PD = 0.40
-MAX_MANUAL_REVIEW_PD = 0.60
-MAX_UTILIZATION = 95
+MIN_APPROVAL_SCORE = 600
+MAX_APPROVAL_PD = 0.30
+MAX_MANUAL_REVIEW_PD = 0.50
+MAX_UTILIZATION = 90
 
 # ==========================================================
 # Utility Functions
@@ -201,4 +201,5 @@ def generate_decision(customer: pd.Series) -> pd.Series:
         "Decision": decision,
         "Decision_Reason": decision_reason(customer)
         })
-
+    
+    
